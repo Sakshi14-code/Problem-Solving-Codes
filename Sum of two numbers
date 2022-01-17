@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);//to take input
+System.out.println("Enter the numbers");//Display Statement
+int a=sc.nextInt();//To store the input
+int b=sc.nextInt();
+int sum=a+b;//Calculation/Logic
+System.out.println("Sum of 2 numbers is "+sum);
+	}
+}
