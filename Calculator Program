@@ -1,0 +1,49 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the two numbers");
+int a=sc.nextInt();
+int b=sc.nextInt();
+/*
+1-+
+2--
+3-*
+4-/
+5-% 
+*/
+System.out.println("Enter the numeric operator");
+int operator=sc.nextInt();
+switch(operator){
+case 1:
+System.out.println(a+b);
+break;
+case 2:
+System.out.println(a-b);
+break;
+case 3:
+System.out.println(a*b);
+break;
+case 4:
+if(b==0) System.out.println("Invalid Division");
+else 
+System.out.println(a/b);
+break;
+case 5:
+if(b==0) System.out.println("Invalid Division");
+else 
+System.out.println(a%b);
+break;
+default:
+System.out.println("Invalid operator");
+}
+	}
+}
