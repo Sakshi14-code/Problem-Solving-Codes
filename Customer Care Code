@@ -1,0 +1,23 @@
+import java.util.*;
+//You need to press the button number to deliver your query to customer care. If you press 1->Card Lost 2->Pincode generate 3->Some transaction happened without your permission
+public class Main
+{
+	public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the card number");
+int n=sc.nextInt();
+switch(n){
+case 1:
+System.out.println("Your card is lost");
+break;
+case 2:
+System.out.println("Kindly generate your pincode");
+break;
+case 3:
+System.out.println("Some transaction happened without your permission");
+break;
+default:
+System.out.println("Invalid number");
+}
+	}
+}
